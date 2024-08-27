@@ -1,12 +1,12 @@
-var btplus =document.getElementsByClassName('fas fa-plus-circle');
-var btmoins =document.getElementsByClassName('fas fa-minus-circle');
-var nb =document.getElementsByClassName('quantity');
+var fa-plus-circle =document.getElementsByClassName('fa-plus-circle');
+var fa-minus-circle =document.getElementsByClassName('fa-minus-circle');
+var quantity =document.getElementsByClassName('quantity');
 var cpt = parseInt(quantity.innerText);
-btplus.addEventListener('click',function(){
+fa-plus-circle.addEventListener('click',function(){
     cpt = cpt+1;
-    nb.innerHTML = cpt;
+    quantity.innerHTML = cpt;
 });
-btmoins.addEventListener('click',function(){
+fa-minus-circle.addEventListener('click',function(){
     if(cpt>0) {
     cpt = cpt-1;
     quantity.innerHTML = cpt;
